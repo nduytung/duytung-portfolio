@@ -13,7 +13,7 @@ class CommentList extends React.Component {
       source: [Duc, Thao, Kel, Duc],
       tutorName: [
         "- Tri Duc - Teammate from Vo Truong Toan Hight school - Leader at UEL",
-        "- Nguyen Thanh Thao - NETSEC Club leader - co-worker from 2019 at UIT",
+        "- Nguyen Thanh Thao - The Associated Organ of Vietnamese Students’ Association, Faculty of Computer Network & Communication, UIT",
         "- Kel - Personal mentor from 2018 to now",
         "- Tri Duc - Teammate from Vo Truong Toan Hight school - Leader at UEL",
       ],
