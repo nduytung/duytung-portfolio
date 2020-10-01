@@ -1,0 +1,36 @@
+.info-content {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+  padding: 8px 0;
+}
+
+.info-content > h4 {
+  color: #61dbfb;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+}
+
+.info-content > p {
+  font-size: 15px;
+  color: gray;
+  text-align: left;
+  font-weight: 300;
+}
+
+.contact-message {
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+}
+
+.info-content-wrapper {
+  margin-left: 80px;
+}
+
+@media (max-width: 739px) {
+  .info-content-wrapper {
+    margin-left: 20px;
+  }
+}

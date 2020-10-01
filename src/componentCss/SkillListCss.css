@@ -1,0 +1,7 @@
+.skill-list-wrapper > .row > div {
+  display: flex;
+}
+
+.list-container {
+  justify-content: space-around;
+}

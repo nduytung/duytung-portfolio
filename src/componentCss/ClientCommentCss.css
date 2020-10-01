@@ -1,0 +1,50 @@
+.client-wrapper {
+  padding: 50px 10px;
+  display: flex;
+}
+
+.client-avt {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+  margin-bottom: 15px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.client-avt > img {
+  width: 60px;
+}
+.client-describe {
+  background-color: #333333;
+  color: gray;
+  padding: 20px 20px;
+  text-align: left;
+  border-radius: 7px;
+}
+
+.fa-caret-down {
+  color: #333;
+  font-size: 40px;
+  margin-right: -12px;
+}
+
+.cmt {
+  display: flex;
+}
+
+.client-credit {
+  font-size: 15px;
+  color: #61dbfb;
+  display: block;
+  padding: 20px 0;
+  text-align: left;
+}
+
+@media (max-width: 739px) {
+  .client-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

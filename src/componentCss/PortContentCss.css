@@ -1,0 +1,60 @@
+.wrapper {
+  justify-content: center;
+  width: 100%;
+  margin-top: -20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.wrapper:hover {
+  transition: 0.5s ease;
+  background-color: #333333;
+}
+
+.wrapper:hover .describer {
+  display: block;
+  opacity: 1;
+  transition: 0.5s ease-in;
+}
+
+.img-container {
+  display: block;
+  width: 80%;
+  border: none;
+  height: 300px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 5px;
+}
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.desHeader {
+  color: #61dbfb;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.desHeader:hover {
+  color: #61dbfb;
+}
+
+.des {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.describer {
+  display: none;
+  margin: 5px 30px;
+  color: gray;
+  text-align: left;
+  opacity: 0;
+}

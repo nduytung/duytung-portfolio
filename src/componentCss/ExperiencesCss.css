@@ -1,0 +1,15 @@
+.time {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 25px;
+  color: #61dbfb;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 16px;
+  color: grey;
+}

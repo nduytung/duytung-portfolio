@@ -1,0 +1,15 @@
+.title-wrapper {
+  padding-top: 70px;
+}
+
+.title-wrapper > h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+
+.title-wrapper > h2 > b {
+  font-size: 30px;
+  color: #61dbfb;
+  font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.skillset-wrapper {
+}
+
+.skill-set > h3 {
+  color: #61dbfb;
+  font-size: 17px;
+  text-align: left;
+}
+
+.skill-set > p {
+  text-align: left;
+}
+
+.skill-set {
+  width: 95%;
+  display: block;
+  background-color: #333333;
+  color: gray;
+  border-radius: 7px;
+  padding: 0 20px;
+  margin: 20px auto;
+}

@@ -1,0 +1,60 @@
+.about-me-img {
+  height: 400px;
+  background-color: #222;
+  overflow: hidden;
+}
+
+.about-me-img > img {
+  display: block;
+  width: 95%;
+  height: 150%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .about-me-img > img {
+    height: 95%;
+  }
+}
+.about-me-intro {
+  font-size: 30px;
+  justify-content: space-between;
+
+  color: white;
+  font-weight: 400;
+}
+
+.about-me-describe {
+  font-size: 18px;
+  color: gray;
+  text-align: left;
+}
+
+.about-me-btn-zone {
+  display: flex;
+}
+
+.about-me-wrapper {
+  display: flex;
+}
+
+.about-me-content {
+  padding: 0 50px;
+}
+
+.about-me-hire {
+  background-color: #61dbfb;
+}
+
+.about-me-hire > a {
+  color: white;
+}
+
+.about-me-hire:hover {
+  border-color: #61dbfb;
+  background-color: transparent;
+}
+
+.about-me-hire > a:hover {
+  color: #61dbfb;
+}

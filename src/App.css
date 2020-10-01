@@ -1,38 +1,112 @@
-.App {
+* {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "BungeeInline";
+  src: local("BungeeInline"),
+    url("./fonts/BungeeInline-Regular.ttf") format("truetype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-background {
+  background: url("./img/main-background.png") no-repeat center fixed;
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  background-color: #222;
+}
+.cover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  height: 650px;
+  bottom: 0;
+  right: 0;
+  border: 1px solid black;
+  left: 0;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #61dbfb;
+  border-radius: 30px;
+  height: 40px;
+  padding: 5px 15px;
+
+  cursor: pointer;
+  margin: 15px 10px;
+  outline: none;
+}
+
+.btn > a {
+  color: #61dbfb;
+  font-size: 500;
+}
+.btn:hover {
+  background-color: #61dbfb;
+  transition: 0.4s ease;
+}
+
+.btn:hover a {
+  color: white;
+}
+.portfolio {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.portfolio > h1 {
+  font-size: 25px;
+  padding-top: 100px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-me {
+  padding-top: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.comment {
+  padding-top: 70px;
+}
+
+.my-skill {
+  padding-top: 50px;
+}
+
+@media (max-width: 1023px) {
+  NavBar {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 739px) {
+  .main-background,
+  .cover {
+    height: 750px;
   }
+}
+
+.main-nav-bar {
+  position: fixed;
+}
+
+.contact {
+  padding-top: 50px;
 }

@@ -1,0 +1,11 @@
+.list-comment-wrapper {
+  padding-top: 40px;
+  display: block;
+}
+
+.list-comment-wrapper > h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 50px;
+}
